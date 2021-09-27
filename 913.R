@@ -1,24 +1,24 @@
 print("hello world")
 
-
+..............
 (4+199)/2
 
-#ÃÖ¼öÁ¤ÀÇ Å¬·¡½ºÀÔ´Ï´Ù.
+#ìµœìˆ˜ì •ì˜ í´ë˜ìŠ¤ì…ë‹ˆë‹¤.
 
-#º¯¼ö ¸¸µé±â
+#ë³€ìˆ˜ ë§Œë“¤ê¸°
 
 a<-2 
 a<-3
 a
 a<-c("2","3")
-#ÄÚµå¼ø¼­´Â ÀÇ¹Ì¾ø´Ù, ½ÇÇàÀÇ ¼ø¼­°¡ ÀÇ¹Ì.
+#ì½”ë“œìˆœì„œëŠ” ì˜ë¯¸ì—†ë‹¤, ì‹¤í–‰ì˜ ìˆœì„œê°€ ì˜ë¯¸.
 
-# "¸¦ ¾²¸é ¹®ÀÚ
+# "ë¥¼ ì“°ë©´ ë¬¸ì
 a<-c("T","F")
 
-#5°¡ÁöÁß 2·Î ¾²´Â 2°¡Áö´Â NUMERIC, CARACTER. Ãß°¡·Î integer´Â Á¤¼ö (´Ş)µî 
+#5ê°€ì§€ì¤‘ 2ë¡œ ì“°ëŠ” 2ê°€ì§€ëŠ” NUMERIC, CARACTER. ì¶”ê°€ë¡œ integerëŠ” ì •ìˆ˜ (ë‹¬)ë“± 
 
-#R¿¡¼­ ¾²ÀÌ´Â ÀÚ·á±¸Á¶
+#Rì—ì„œ ì“°ì´ëŠ” ìë£Œêµ¬ì¡°
 
 #scalar, vector,matrix, array, list, dataframe, + tibble
 
@@ -29,23 +29,23 @@ a<-"bts"
 getwd()
 
 v<-c(1,2,3)
-v<-c("ÅÂÈ«","ÅÂÀ±")
-#123ÀÌ È¾À¸·Î ºÙÀ¸¸é º¤ÅÍ, º¤ÅÍ°¡Á¾À¸·Î ºÙÀ¸¸é matrix
-#vector¿©·¯°³ÀÇ ¿ø¼ÒµéÀÌ³ª ÇÏ³ªÀÇ row
+v<-c("íƒœí™","íƒœìœ¤")
+#123ì´ íš¡ìœ¼ë¡œ ë¶™ìœ¼ë©´ ë²¡í„°, ë²¡í„°ê°€ì¢…ìœ¼ë¡œ ë¶™ìœ¼ë©´ matrix
+#vectorì—¬ëŸ¬ê°œì˜ ì›ì†Œë“¤ì´ë‚˜ í•˜ë‚˜ì˜ row
 
 m<-matrix(c(1,2,3,4,5,6),nrow=3)
 m
 m<-matrix(c(1,2,3,4,5,6),nrow=2)
-#matrixºÎÅÍ data¿¡ µé¾î°¨
-#½°Ç¥, ÀÇ¹Ì ¹İµå½Ã ±â¾ï
-#[1,] = 1¹øÂ° rowÀÇ ¸ğµç column
+#matrixë¶€í„° dataì— ë“¤ì–´ê°
+#ì‰¼í‘œ, ì˜ë¯¸ ë°˜ë“œì‹œ ê¸°ì–µ
+#[1,] = 1ë²ˆì§¸ rowì˜ ëª¨ë“  column
 [3,2]
-#[,2] = ¸ğµç row when column=2
-#¼ıÀÚ°¡ Á¾À¸·Î µé¾î°¡´Â°Ô ½È´Ù
+#[,2] = ëª¨ë“  row when column=2
+#ìˆ«ìê°€ ì¢…ìœ¼ë¡œ ë“¤ì–´ê°€ëŠ”ê²Œ ì‹«ë‹¤
 m2<-matrix(c(1,2,3,4,5,6),nrow=2,byrow=TRUE)
 
 m2<-matrix(c(1,2,3,4,5,6),nrow=2,byrow=FALSE)
-#byrow FALSE°¡ ±âº»°ª
+#byrow FALSEê°€ ê¸°ë³¸ê°’
 
 m3<-matrix(1:6,nrow=2)
 
@@ -53,7 +53,7 @@ m3<-matrix(1:6,nrow=2)
 
 
 
-#º¤ÅÍ¸¦ ¸ŞÆ®¸¯½º·Î ½×´Â ¿¬½À
+#ë²¡í„°ë¥¼ ë©”íŠ¸ë¦­ìŠ¤ë¡œ ìŒ“ëŠ” ì—°ìŠµ
 
 mat1<-c(1:3)
 mat2<-c(4:6)
@@ -80,7 +80,7 @@ matrix3
 ar<-array(c(matrix1,matrix2,matrix3),dim=c(3,3,3))
 ar
 
-#matrix´ÜÁ¡ :¿ø¼Ò°¡ °°Àº Æ¯¼ºÀÇ ÀÚ·á¿©¾ß¸¸ÇÔ. ¼ıÀÚ,·ÎÁöÄÃ, ¹®ÀÚ µî 
+#matrixë‹¨ì  :ì›ì†Œê°€ ê°™ì€ íŠ¹ì„±ì˜ ìë£Œì—¬ì•¼ë§Œí•¨. ìˆ«ì,ë¡œì§€ì»¬, ë¬¸ì ë“± 
 
 #dataframe
 btsname<-c("RM","JIN","SUGAR","JHOPE","JIMIN","V","JK")
@@ -89,17 +89,17 @@ btsyear<-c(1994,1992,1993,1994,1995,1995,1997)
 btsposition <-c("rap", "vocal", "rap", "rap", "vocal", "vocal","vocal")
 
 bts<-data.frame(btsname,btsyear,btsposition)
-#7obs = row°¡ 7°³ / 3var = º¯¼ö°¡ 3°³, columnÀÌ 3°³
+#7obs = rowê°€ 7ê°œ / 3var = ë³€ìˆ˜ê°€ 3ê°œ, columnì´ 3ê°œ
 
 str(bts)
 
-#$Ç¥½Ã : ÇØ´çÀÚ·áÀÇ º¯¼ö ÁöÄªÇÒ¶§ ¾²´Â Ç¥½Ã. btsµ¥ÀÌÅÍÀÇ btsyear º¯¼ö¸¦ °¡Á®¿Í~= bts$btsyear
+#$í‘œì‹œ : í•´ë‹¹ìë£Œì˜ ë³€ìˆ˜ ì§€ì¹­í• ë•Œ ì“°ëŠ” í‘œì‹œ. btsë°ì´í„°ì˜ btsyear ë³€ìˆ˜ë¥¼ ê°€ì ¸ì™€~= bts$btsyear
 
 bts<-data.frame(btsname,btsyear,btsposition,stringsAsFactors=TRUE)
 str(bts)
 
 
-#factor : °ª¿¡ levelÀÌ¶ó´Â Á¤º¸¸¦ Ãß°¡ÇÑ °Í. ÀÌ¶§ ¼ø¼­´Â ¾ËÆÄºª¼ø.
+#factor : ê°’ì— levelì´ë¼ëŠ” ì •ë³´ë¥¼ ì¶”ê°€í•œ ê²ƒ. ì´ë•Œ ìˆœì„œëŠ” ì•ŒíŒŒë²³ìˆœ.
 
 
 gender=factor(c("male","female","female","male"))
@@ -107,7 +107,7 @@ gender
 
 gender=factor(c("male","female","female","male"), levels=c("male","female"))
 
-#ÀÌºĞº¯¼ö¿¡¼­ 0À¸·Î µÎ´Â °ªÀÌ Áß¿äÇÏ´Ù. º¸Åë 0=reference group
+#ì´ë¶„ë³€ìˆ˜ì—ì„œ 0ìœ¼ë¡œ ë‘ëŠ” ê°’ì´ ì¤‘ìš”í•˜ë‹¤. ë³´í†µ 0=reference group
 
 bts$btsposition=factor(btsposition,levels=c("vocal","rap"))
 str(bts$btsposition)
@@ -117,23 +117,23 @@ bts
 
 
 
-#null, NAÀÇ Â÷ÀÌ
-#Null : ¾Æ¹«°Íµµ ¾øÀ½ / NA:°¡´ÉÇÏÁö ¾Ê´Ù, ¿ø·¡ ÀÖ¾î¾ßÇÏ´Âµ¥ µ¥ÀÌÅÍ°¡ ºüÁ³´Ù. Missing data
+#null, NAì˜ ì°¨ì´
+#Null : ì•„ë¬´ê²ƒë„ ì—†ìŒ / NA:ê°€ëŠ¥í•˜ì§€ ì•Šë‹¤, ì›ë˜ ìˆì–´ì•¼í•˜ëŠ”ë° ë°ì´í„°ê°€ ë¹ ì¡Œë‹¤. Missing data
 
 bts$nullvariable<-NULL
 bts$navariable<-NA
 
-#¾ğÁ¦Â÷ÀÌ? mean °ª °è»ê.
+#ì–¸ì œì°¨ì´? mean ê°’ ê³„ì‚°.
 
 bts[1,5]<-3
 bts[2,5]<-5
 bts[3,5]<-1
 mean(bts$navariable)
 mean(bts$age)
-#Áï NA°¡ ÇÏ³ª¶óµµ ÀÖÀ¸¸é mean°ªÀÌ ¾È³ª¿È
+#ì¦‰ NAê°€ í•˜ë‚˜ë¼ë„ ìˆìœ¼ë©´ meanê°’ì´ ì•ˆë‚˜ì˜´
 mean(bts$navariable,na.rm=TRUE)
 mean(bts$V5,na.rm=TRUE)
-#rm=removing,Á¦°Å
+#rm=removing,ì œê±°
 
 
 
@@ -147,16 +147,16 @@ mean(bts$V5,na.rm=TRUE)
 install.packages("dplyr")
 library(dplyr)
 
-#dplyr : µ¥ÀÌÅÍ ÀüÃ³¸®¿¡¼­ ¾²´Â ÆĞÅ°Áö. Á÷°ü¼ºÀÌ ÁÁ°í ¾²±â ½¬¿ò. 
-#ÀüÃ³¸® : µ¥ÀÌÅÍ¸¦ Á÷Á¢¼öÁıÇÏ¸é ¿øÇÏ´Â º¯¼ö´ë·Î Á¤·ÄµÇ¾î¾ßÇÔ. ¸¹Àº ½Ã°£ ¼Ò¿ä. 
-#ÇÊÅÍ¸µ:µ¥ÀÌÅÍ¸¦ È¾À¸·Î ÀÚ¸§. ÄÉÀÌ½º¸¦ ¼±ÅÃ / ¼¿·ºÆÃ:µ¥ÀÌÅÍ¸¦ ¼¼·Î·Î ÀÚ¸§. º¯¼ö¸¸ ¼±ÅÃ.
-#ordering:Á¤·Ä, mutate:»õ·Î¿îº¯¼ö»ı¼º
+#dplyr : ë°ì´í„° ì „ì²˜ë¦¬ì—ì„œ ì“°ëŠ” íŒ¨í‚¤ì§€. ì§ê´€ì„±ì´ ì¢‹ê³  ì“°ê¸° ì‰¬ì›€. 
+#ì „ì²˜ë¦¬ : ë°ì´í„°ë¥¼ ì§ì ‘ìˆ˜ì§‘í•˜ë©´ ì›í•˜ëŠ” ë³€ìˆ˜ëŒ€ë¡œ ì •ë ¬ë˜ì–´ì•¼í•¨. ë§ì€ ì‹œê°„ ì†Œìš”. 
+#í•„í„°ë§:ë°ì´í„°ë¥¼ íš¡ìœ¼ë¡œ ìë¦„. ì¼€ì´ìŠ¤ë¥¼ ì„ íƒ / ì…€ë ‰íŒ…:ë°ì´í„°ë¥¼ ì„¸ë¡œë¡œ ìë¦„. ë³€ìˆ˜ë§Œ ì„ íƒ.
+#ordering:ì •ë ¬, mutate:ìƒˆë¡œìš´ë³€ìˆ˜ìƒì„±
 #chain operator, %>%, ctrl+shift+m
-#¹®ÀÚ°¡ ±úÁ³À»¶§: file - reopen with encoding
+#ë¬¸ìê°€ ê¹¨ì¡Œì„ë•Œ: file - reopen with encoding
 
 x<-c(30,20,10,0)
 sqrt(mean(abs(x)))
-#ÀÌ·¸°Ô ¾²¸é ÄÚµå°¡ ±æ¾îÁü(abs:Àı´ñ°ª, sqrt:Á¦°ö±Ù, ceiling:xº¸´Ù Å©°Å³ª °°Àº Á¤¼ö )
+#ì´ë ‡ê²Œ ì“°ë©´ ì½”ë“œê°€ ê¸¸ì–´ì§(abs:ì ˆëŒ“ê°’, sqrt:ì œê³±ê·¼, ceiling:xë³´ë‹¤ í¬ê±°ë‚˜ ê°™ì€ ì •ìˆ˜ )
 
 x %>% 
   abs() %>% 
@@ -169,7 +169,7 @@ floor(3.5)
 round(3.634131515,digits=3)
 
 
-# 1. filter : case ¼±ÅÃ(Æ¯Á¤ º¯¼öÀÇ º¯¼ö°ªÀ» Áö´Ñ caseµé )
+# 1. filter : case ì„ íƒ(íŠ¹ì • ë³€ìˆ˜ì˜ ë³€ìˆ˜ê°’ì„ ì§€ë‹Œ caseë“¤ )
 
 
 install.packages("nycflights13")
@@ -185,19 +185,19 @@ flights_df %>%
   filter(month==2) %>% 
   count(month)
 
-#filter´Â ¿øÀÚ·á¸¦ °Çµå¸®Áö ¾ÊÀ½.
+#filterëŠ” ì›ìë£Œë¥¼ ê±´ë“œë¦¬ì§€ ì•ŠìŒ.
 
 flights_df %>% 
   filter(month==2)->flight_df_filter
 
-#ÀÌ·¸°Ô ÇØÁà¾ßµÊ
-#|(shift ¿ø):or¶ó´Â ¶æ / , : and¶ó´Â ¶æ
+#ì´ë ‡ê²Œ í•´ì¤˜ì•¼ë¨
+#|(shift ì›):orë¼ëŠ” ëœ» / , : andë¼ëŠ” ëœ»
 
 flights_df %>% 
   filter(month==2|day==1) %>% 
   count(month)
 
-#! : notÀÌ¶ó´Â ¶æ
+#! : notì´ë¼ëŠ” ëœ»
 
 flights_df %>% 
   filter(month!=2)
@@ -208,7 +208,7 @@ flights_df %>%
 flights_df %>% 
   filter(month %in% c(5,7,10))
 
-#NA°ª Á¦°Å
+#NAê°’ ì œê±°
 
 flights_df %>% 
   filter(is.na(month))
@@ -219,21 +219,21 @@ bts %>%
 bts %>% 
   filter(!is.na(navariable))
 
-#ÀúÀå
+#ì €ì¥
 
 flights_df %>% 
   filter(month %in% c(5,7,10))->flights_df_filter
 
 str(flights_df_filter)
 
-##select : º¯¼ö¼±ÅÃ. data¸¦ Á¾À¸·Î Àı´Ü
+##select : ë³€ìˆ˜ì„ íƒ. dataë¥¼ ì¢…ìœ¼ë¡œ ì ˆë‹¨
 
 select_flights_df<-flights_df %>% 
   select(month,day)
   str(select_flights_df)
   
 
-#str´Â %>% ¾²Áö¸¶¶ó, ¿À·ù»ı±è
+#strëŠ” %>% ì“°ì§€ë§ˆë¼, ì˜¤ë¥˜ìƒê¹€
   
 flights_df %>% 
   select(month:origin)
@@ -246,85 +246,85 @@ flights_df %>%
   select-c(month,day)->flights_df_select
 str(flights_df_select)
 
-#arrange : Á¤·Ä. ¿À¸§Â÷¼ø, ³»¸²Â÷¼ø (Áı¿¡¼­ ÇØºÁ¶ó)
-##month, day ¼øÀ¸·Î ¿À¸§Â÷¼ø
+#arrange : ì •ë ¬. ì˜¤ë¦„ì°¨ìˆœ, ë‚´ë¦¼ì°¨ìˆœ (ì§‘ì—ì„œ í•´ë´ë¼)
+##month, day ìˆœìœ¼ë¡œ ì˜¤ë¦„ì°¨ìˆœ
 arrange_flight_df<-
   flight_df %>%
   arrange(month, day) 
 
-##month´Â ¿À¸§Â÷¼ø, day´Â ³»¸²Â÷¼ø
+##monthëŠ” ì˜¤ë¦„ì°¨ìˆœ, dayëŠ” ë‚´ë¦¼ì°¨ìˆœ
 arrange_flight_df<-
   flight_df %>%
   arrange(month, -day) 
-#¶Ç´Â
+#ë˜ëŠ”
 arrange_flight_df<-
   flight_df %>%
   arrange(month, desc(day))
 
-##month, day ¼øÀ¸·Î ³»¸²Â÷¼ø
+##month, day ìˆœìœ¼ë¡œ ë‚´ë¦¼ì°¨ìˆœ
 arrange_flight_df<-
   flight_df %>%
   arrange(-month, -day) 
-#¶Ç´Â
+#ë˜ëŠ”
 arrange_flight_df<-
   flight_df %>%
   arrange(desc(month), desc(day))
 
-#mutate : ÆÄ»ıº¯¼ö=DV(±âÁ¸º¯¼ö·Î »õ·Î¿î º¯¼ö »ı¼º)µîÀ¸·Î »õ·Î¿î º¯¼ö »ı¼º.
-#(´ÙÀ½½Ã°£¿¡ Àç¼³¸í)
-#categoryº¯¼ö »ı¼º
+#mutate : íŒŒìƒë³€ìˆ˜=DV(ê¸°ì¡´ë³€ìˆ˜ë¡œ ìƒˆë¡œìš´ ë³€ìˆ˜ ìƒì„±)ë“±ìœ¼ë¡œ ìƒˆë¡œìš´ ë³€ìˆ˜ ìƒì„±.
+#(ë‹¤ìŒì‹œê°„ì— ì¬ì„¤ëª…)
+#categoryë³€ìˆ˜ ìƒì„±
 #ifelse(arr_delay>0,"delay","no delay")
 
-#¼÷Á¦ : ±êÇãºê 2¹øÂ°²¨ ÄÚµåµé Âß ½áº»´Ù.
-#´ÙÀ½½Ã°£ : 3.ggplot »ç¿ë, ±×·¡ÇÁ ±×¸®±â
-#.datÀ» working directory  ¾È¿¡ ÀÖ¾î¾ßÇÔ (github ¿¬°á »¡¸®ÇØ¶ó)
+#ìˆ™ì œ : ê¹ƒí—ˆë¸Œ 2ë²ˆì§¸êº¼ ì½”ë“œë“¤ ì­‰ ì¨ë³¸ë‹¤.
+#ë‹¤ìŒì‹œê°„ : 3.ggplot ì‚¬ìš©, ê·¸ë˜í”„ ê·¸ë¦¬ê¸°
+#.datì„ working directory  ì•ˆì— ìˆì–´ì•¼í•¨ (github ì—°ê²° ë¹¨ë¦¬í•´ë¼)
 #more - go to working directory
 
 
 # 9/27#
 #mutate
-#»õ·Î¿î º¯¼ö »ı¼º
+#ìƒˆë¡œìš´ ë³€ìˆ˜ ìƒì„±
 
 #transmute
-#±âÁ¸º¯¼ö »èÁ¦ ÈÄ »õ º¯¼ö »ı¼º
+#ê¸°ì¡´ë³€ìˆ˜ ì‚­ì œ í›„ ìƒˆ ë³€ìˆ˜ ìƒì„±
 
 #mutate_all
-#±âÁ¸ÀÇ Ä®·³µé¿¡ »õ º¯¼ö »ı¼º (¿¹ ¸ğµç Ä®·³¿¡ log)
+#ê¸°ì¡´ì˜ ì¹¼ëŸ¼ë“¤ì— ìƒˆ ë³€ìˆ˜ ìƒì„± (ì˜ˆ ëª¨ë“  ì¹¼ëŸ¼ì— log)
 
 #summary 
-#±âÁ¸°Íµé ¿ä¾àÇØ ÇÏ³ªÀÇ °´Ã¼ »ı¼º
+#ê¸°ì¡´ê²ƒë“¤ ìš”ì•½í•´ í•˜ë‚˜ì˜ ê°ì²´ ìƒì„±
 
 ### 3.4.mutate ######################################################
-##mutate´Â »õ·Î¿î º¯¼ö¸¦ ¸¸µé¾îÁÜ(ÆÄ»ıº¯¼ö(derived variables)»ı¼º)
+##mutateëŠ” ìƒˆë¡œìš´ ë³€ìˆ˜ë¥¼ ë§Œë“¤ì–´ì¤Œ(íŒŒìƒë³€ìˆ˜(derived variables)ìƒì„±)
 
-#¿¬»êÀ» ÅëÇØ »õ·Î¿î º¯¼ö »ı¼º
+#ì—°ì‚°ì„ í†µí•´ ìƒˆë¡œìš´ ë³€ìˆ˜ ìƒì„±
 
 flights_df %>%
   mutate(mean_distance=distance/hour, 
          ratio_delay=arr_delay/(hour*60+minute))
 
-#ifelse¸¦ È°¿ëÇÏ¿© categoryº¯¼ö »ı¼º
-#ifelse(Á¶°Ç, Á¶°ÇÀÌÂüÀÏ¶§,Á¶°ÇÀÌ falseÀÏ¶§)
+#ifelseë¥¼ í™œìš©í•˜ì—¬ categoryë³€ìˆ˜ ìƒì„±
+#ifelse(ì¡°ê±´, ì¡°ê±´ì´ì°¸ì¼ë•Œ,ì¡°ê±´ì´ falseì¼ë•Œ)
 flights_df %>%
   mutate(arr_delay_group=ifelse(arr_delay>0, "delay", "no delay"))
 
 
-#º°µµ ÀúÀåÀ» ÇÏÁö ¾ÊÀ¸¸é ¸í·É¾î ½ÇÇà½Ã¿¡¸¸ º¯¼ö°¡ »ı¼ºµÊ
-#º°µµ ÀúÀåÀ» ÇÏ´Â ¸í·É¾î¸¦ Ãß°¡ÇØ¾ß ÇÔ
+#ë³„ë„ ì €ì¥ì„ í•˜ì§€ ì•Šìœ¼ë©´ ëª…ë ¹ì–´ ì‹¤í–‰ì‹œì—ë§Œ ë³€ìˆ˜ê°€ ìƒì„±ë¨
+#ë³„ë„ ì €ì¥ì„ í•˜ëŠ” ëª…ë ¹ì–´ë¥¼ ì¶”ê°€í•´ì•¼ í•¨
 mutate_flights_df<-
   flights_df %>%
   mutate(arr_delay_group=ifelse(arr_delay>0, "delay", "no delay"))
 
 str(mutate_flight_df)
 
-#º°µµ ÀúÀåÀº ¸¶Áö¸·¿¡ ½áµµ °¡´É(È­»ìÇ¥´Â ¹İ´ë, logicÀ» »ı°¢ÇÏ¸é Á÷°üÀû ÀÌÇØ °¡´É)
+#ë³„ë„ ì €ì¥ì€ ë§ˆì§€ë§‰ì— ì¨ë„ ê°€ëŠ¥(í™”ì‚´í‘œëŠ” ë°˜ëŒ€, logicì„ ìƒê°í•˜ë©´ ì§ê´€ì  ì´í•´ ê°€ëŠ¥)
 flights_df %>%
   mutate(arr_delay_group=ifelse(arr_delay>0, "delay", "no delay"))->mutate1_flight_df
 
 
-### 3.5. group_by¿Í summarise ######################################################
-##group_by´Â Æ¯Á¤ º¯¼ö·Î groupingÇÏ´Â °Í (¼ºº°(³²/¿©)¿¡ µû¶ó µ¥ÀÌÅÍ¸¦ split)
-##summarize´Â group_by¿Í ½ÖÀ¸·Î ÀÚÁÖ ¾²ÀÓ. ±×·ìº°·Î Æ¯Á¤ º¯¼öÀÇ °ªÀ» ¿ä¾à(Æò±Õ, ºĞ»ê µî)ÇÒ¶§ »ç¿ë
+### 3.5. group_byì™€ summarise ######################################################
+##group_byëŠ” íŠ¹ì • ë³€ìˆ˜ë¡œ groupingí•˜ëŠ” ê²ƒ (ì„±ë³„(ë‚¨/ì—¬)ì— ë”°ë¼ ë°ì´í„°ë¥¼ split)
+##summarizeëŠ” group_byì™€ ìŒìœ¼ë¡œ ìì£¼ ì“°ì„. ê·¸ë£¹ë³„ë¡œ íŠ¹ì • ë³€ìˆ˜ì˜ ê°’ì„ ìš”ì•½(í‰ê· , ë¶„ì‚° ë“±)í• ë•Œ ì‚¬ìš©
 flights_df %>%
   group_by(month)
 
@@ -338,10 +338,10 @@ mutate1_flight_df %>%
 
 table(flights_df$arr_delay)
 
-#missing °ªÀÌ ÀÖ¾î¼­ Á¦´ë·Î ±×·çÇÎÀÌ ¾ÈµÇ°í ÀÖÀ½À» È®ÀÎ. filter¸¦ ÅëÇØ na °ªÀ» ¾ø¾Ö°í ºĞ¼®ÇØº¸ÀÚ
+#missing ê°’ì´ ìˆì–´ì„œ ì œëŒ€ë¡œ ê·¸ë£¨í•‘ì´ ì•ˆë˜ê³  ìˆìŒì„ í™•ì¸. filterë¥¼ í†µí•´ na ê°’ì„ ì—†ì• ê³  ë¶„ì„í•´ë³´ì
 
 flights_df %>%
-  filter(!is.na(arr_delay)) %>%  #na°¡ ¾Æ´Ñ row¸¸ Ç¥½Ã
+  filter(!is.na(arr_delay)) %>%  #naê°€ ì•„ë‹Œ rowë§Œ í‘œì‹œ
   mutate(arr_delay_group=ifelse(arr_delay>0, "delay", "no delay")) %>% 
   group_by(arr_delay_group) %>% 
   summarise(max=max(arr_delay),
@@ -354,19 +354,19 @@ flights_df %>%
 str(final)
 final
 
-##summarise : ¿ä¾àÅë°è·® °è»ê
-#mean(x,na.rm=TRUE) : °áÃø°ªÁ¦¿ÜÇÏ°í Æò±Õ
-#median(x,na.rm=TRUE) : Áß¾Ó°ª
-#sd(x,na.rm=TRUE) : Ç¥ÁØÆíÂ÷
-#min(x,na.rm=TRUE) : ÃÖ¼Ú°ª
-#max(x,na.rm=TRUE) : ÃÖ´ë°ª
-#IQR(x,na.rm=TRUE) : »çºĞÀ§¼ö : Q3-Q1
-#sum(x,na.rm=TRUE) : ÇÕ
+##summarise : ìš”ì•½í†µê³„ëŸ‰ ê³„ì‚°
+#mean(x,na.rm=TRUE) : ê²°ì¸¡ê°’ì œì™¸í•˜ê³  í‰ê· 
+#median(x,na.rm=TRUE) : ì¤‘ì•™ê°’
+#sd(x,na.rm=TRUE) : í‘œì¤€í¸ì°¨
+#min(x,na.rm=TRUE) : ìµœì†Ÿê°’
+#max(x,na.rm=TRUE) : ìµœëŒ€ê°’
+#IQR(x,na.rm=TRUE) : ì‚¬ë¶„ìœ„ìˆ˜ : Q3-Q1
+#sum(x,na.rm=TRUE) : í•©
 
 
-#n() Ä«¿îÆ®.°üÃøÄ¡ °³¼ö °è»ê, xº¯¼ö ÀÔ·Â ÇÏÁö ¾ÊÀ½
-#n_disinct(x) : Áßº¹¾ø´Â À¯ÀÏÇÑ °üÃøÄ¡ °³¼ö °è»ê
-###½Ç½À######
+#n() ì¹´ìš´íŠ¸.ê´€ì¸¡ì¹˜ ê°œìˆ˜ ê³„ì‚°, xë³€ìˆ˜ ì…ë ¥ í•˜ì§€ ì•ŠìŒ
+#n_disinct(x) : ì¤‘ë³µì—†ëŠ” ìœ ì¼í•œ ê´€ì¸¡ì¹˜ ê°œìˆ˜ ê³„ì‚°
+###ì‹¤ìŠµ######
 mutate1_flight_df %>% 
   group_by(arr_delay_group) %>% 
   summarise(n=n())
@@ -376,16 +376,16 @@ mutate1_flight_df %>%
   group_by(arr_delay_group) %>% 
   summarise(n=n())
 
-##rename : º¯¼ö ÀÌ¸§ º¯°æ
+##rename : ë³€ìˆ˜ ì´ë¦„ ë³€ê²½
 str(mutate1_flight_df)
 mutate2_flight_df<- rename(mutate1_flight_df, destination=dest)
 
-### 3.6. ¸¶Ä¡¸ç  ######################################################
+### 3.6. ë§ˆì¹˜ë©°  ######################################################
 
-## dplyrÀÇ chain operator´Â Á÷°üÀûÀÎ »ç°íÀÇ Èå¸§´ë·Î ÄÚµå¸¦ ½ÉÇÃÇÏ°Ô Â©¼ö ÀÖ´Ù´Â ÀåÁ¡
-## ´Ü, ÄÚµåÀÇ ¼ø¼­°¡ ¸Å¿ì Áß¿äÇÔ. ¿ì¸®°¡ ¿¬»êÀ» ÇÏ´Â ¼ø¼­°¡ ´Ù¸£¸é ´äÀÌ ´Ù¸¥°ÍÃ³·³ ¸ÕÀú ÀÛ¼ºµÈ ÄÚµå ¼ø¼­´ë·Î 
-##   ½ÇÇàÀÌ µÇ±â ¶§¹®¿¡ ÄÚµå¸¦ Â¥±â Àü¿¡ ¹Ì¸® µ¥ÀÌÅÍ ¼ÒÆÃ, ÃßÃâ, ¿¬»êÀÇ ¼ø¼­¸¦ ¸Ó¸´¼Ó¿¡ Á¤¸®ÇÒ ÇÊ¿ä°¡ ÀÖÀ½
-## ¶ÇÇÑ ´Ù¸¥ chain operator´Â ´Ù¸¥ ÆĞÅ°Áö(¿¹: ggplot2)¸¦ °¡Á®¿Í¼­ ¾µ¼öµµ ÀÖ±â ¶§¹®¿¡ ¸Å¿ì À¯¿ëÇÔ
+## dplyrì˜ chain operatorëŠ” ì§ê´€ì ì¸ ì‚¬ê³ ì˜ íë¦„ëŒ€ë¡œ ì½”ë“œë¥¼ ì‹¬í”Œí•˜ê²Œ ì§¤ìˆ˜ ìˆë‹¤ëŠ” ì¥ì 
+## ë‹¨, ì½”ë“œì˜ ìˆœì„œê°€ ë§¤ìš° ì¤‘ìš”í•¨. ìš°ë¦¬ê°€ ì—°ì‚°ì„ í•˜ëŠ” ìˆœì„œê°€ ë‹¤ë¥´ë©´ ë‹µì´ ë‹¤ë¥¸ê²ƒì²˜ëŸ¼ ë¨¼ì € ì‘ì„±ëœ ì½”ë“œ ìˆœì„œëŒ€ë¡œ 
+##   ì‹¤í–‰ì´ ë˜ê¸° ë•Œë¬¸ì— ì½”ë“œë¥¼ ì§œê¸° ì „ì— ë¯¸ë¦¬ ë°ì´í„° ì†ŒíŒ…, ì¶”ì¶œ, ì—°ì‚°ì˜ ìˆœì„œë¥¼ ë¨¸ë¦¿ì†ì— ì •ë¦¬í•  í•„ìš”ê°€ ìˆìŒ
+## ë˜í•œ ë‹¤ë¥¸ chain operatorëŠ” ë‹¤ë¥¸ íŒ¨í‚¤ì§€(ì˜ˆ: ggplot2)ë¥¼ ê°€ì ¸ì™€ì„œ ì“¸ìˆ˜ë„ ìˆê¸° ë•Œë¬¸ì— ë§¤ìš° ìœ ìš©í•¨
 
 install.packages('ggplot2')
 library(ggplot2)
